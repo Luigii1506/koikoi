@@ -1,0 +1,130 @@
+
+  .us-mainWrapper {
+    background-image: linear-gradient(to bottom, #000000 35%, #9a38ff 100%);
+  }
+  
+  .us-title {
+    font-size: 141px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    line-height: 141px;
+    margin-bottom: 50px;
+  }
+  
+  .us-text-wrapper {
+    font-size: 41px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    width: calc(100vw * 1600 / 1938);
+    margin: auto;
+    display: block;
+  }
+  
+  .us-second-section {
+    min-height: calc(100vw * 1935 / 1938);
+    /*min-height: calc(100vh * 1935  / 3293);*/
+    position: relative;
+  }
+  
+  .us-personaje-1 {
+    width: calc(100vw * 495 / 1938);
+    position: absolute;
+    bottom: calc(100vw * 140 / 1938);;
+    left: calc(100vw * 183 / 1938);
+  }
+  
+  .us-personaje-2 {
+    width: calc(100vw * 503 / 1938);
+    position: absolute;
+    bottom: calc(100vw * -485 / 1938);
+    left: calc(100vw * 681 / 1938);
+  }
+  
+  .us-personaje-3 {
+    width: calc(100vw * 573 / 1938);
+    position: absolute;
+    bottom: calc(100vw * -520 / 1938);
+    right: calc(100vw * 56 / 1938);
+  }
+  
+  .us-globo-1 {
+    width: calc(100vw * 653 / 1938);
+    position: absolute;
+    bottom: calc(100vw * 955 / 1938);;
+    left: calc(100vw * 114 / 1938);
+  }
+  
+  .us-globo-2 {
+    width: calc(100vw * 548 / 1938);
+    position: absolute;
+    bottom: calc(100vw * 881 / 1938);;
+    left: calc(100vw * 744 / 1938);
+  }
+  
+  .us-globo-3 {
+    width: calc(100vw * 566 / 1938);
+    position: absolute;
+    bottom: calc(100vw * 904 / 1938);;
+    right: calc(100vw * 56 / 1938);
+  }
+  
+  .us-mesa {
+    width: calc(100vw * 1789 / 1938);
+    position: absolute;
+    bottom: 0px;
+    left: calc(100vw * 56 / 1938);
+  }
+  
+  @media (max-width: 1800px) {
+  
+  }
+  
+  @media (max-width: 1500px) {
+    .us-title {
+      font-size: 100px;
+      line-height: 100px;
+    }
+  
+    .us-text-wrapper {
+      font-size: 30px;
+    }
+  }
+  
+  @media (max-width: 1000px) {
+    .us-title {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  
+    .us-text-wrapper {
+      font-size: 21px;
+    }
+  }
+  
+  @media (max-width: 765px) {
+    .us-title {
+      font-size: 50px;
+      line-height: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-bottom: 30px;
+    }
+  
+    .us-text-wrapper {
+      font-size: 16px;
+    }
+  }
+  
+  
+  @media (max-width: 600px) {
+  
+    .navbar {
+      display: block;
+    }
+  
+    .header {
+      display: none;
+    }
+  }
