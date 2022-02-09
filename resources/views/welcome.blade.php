@@ -6,6 +6,12 @@
    <div class="container-fluid home-mainWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
+        <div class="menu-wrapper">
+          <span><a href="{{ url('/') }}"> Home</a></span>
+          <span><a href="{{ url('/us') }}"> Us</a></span>
+          <span><a href="{{ url('/web') }}"> Web</a></span>
+          <span><a href="{{ url('/design') }}"> Design</a></span>
+        </div>
       </div>
       <div class="home-first-section">
           <div class="home-first-section-text-wrapper">
@@ -59,14 +65,10 @@
         </div>
         <div class="row home-third-section-circulo-img">
           <div 
-            data-aos-offset="300"
-            data-aos="flip-up" 
             class="home-animation-postick-1">
             <img alt="Quasar logo" src="{{ asset('images/postick_1.png') }}" class="home-third-section-circulo-img-1">
           </div>
           <div 
-            data-aos-offset="300"
-            data-aos="flip-down" 
             class="home-animation-postick-2">
             <img alt="Quasar logo" src="{{ asset('images/postick_2.png') }}" class="home-third-section-circulo-img-2">
             <div class="home-postick-text">

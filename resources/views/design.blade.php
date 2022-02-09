@@ -6,6 +6,12 @@
    <div class="container-fluid design-mainWrapper">
       <div class="header">
          <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
+         <div class="menu-wrapper">
+            <span><a href="{{ url('/') }}"> Home</a></span>
+            <span><a href="{{ url('/us') }}"> Us</a></span>
+            <span><a href="{{ url('/web') }}"> Web</a></span>
+            <span><a href="{{ url('/design') }}"> Design</a></span>
+          </div>
       </div>
       <div class="design-first-section">
          <div class="row">
@@ -45,88 +51,42 @@
          <img src="{{ asset('images/design/fondo_blanco.png') }}" alt="" class="design-second-section-fondo-blanco">
          <img src="{{ asset('images/design/circulo.png') }}" class="design-second-section-burbuja">
          <p class="design-second-section-text">CHOOSE WHAT YOU NEED</p>
-         <div class="design-second-section-row-wrapper">
-            <!--
-               <swiper class="mySwiper">
-                  <swiper-slide> 
-                     <button class="design-second-section-col-button">A</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </swiper-slide>
-                  <swiper-slide> 
-                     <button class="design-second-section-col-button">B</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     </swiper-slide>
-                  <swiper-slide> 
-                     <button class="design-second-section-col-button">C</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </swiper-slide>
-               </swiper>
-               -->
-            <div class="row design-second-section-row">
-               <div class="col-6 relative-position">
-                  <div class="design-second-section-col-wrapper">
-                     <button class="design-second-section-col-button">A</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </div>
-               </div>
-               <div class="col-6 relative-position">
-                  <div class="design-second-section-col-wrapper">
-                     <button class="design-second-section-col-button">B</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </div>
-               </div>
+        <div class="design-second-section-row-wrapper">
+          <div class="position-relative design-second-section-row h-100">
+            <div class="owl-carousel owl-theme owl-carousel-section-2 h-100">
+              <div class="item text-center design-bottom-position">
+                <button class="design-second-section-col-button">A</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+              </div>
+              <div class="item text-center design-bottom-position">
+                <button class="design-second-section-col-button">B</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+              </div>
+              <div class="item text-center design-bottom-position">
+                <button class="design-second-section-col-button">C</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+              </div>
             </div>
-            <!--
-               <swiper class="mySwiper" :navigation="true">
-                  <swiper-slide>
-                     <button class="design-second-section-col-button">A</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </swiper-slide>
-                  <swiper-slide>
-                     <button class="design-second-section-col-button">B</button>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                     <p class="design-second-section-col-text">Ejemplo cualquiera</p>
-                  </swiper-slide>
-               </swiper>
-               -->
-         </div>
+          </div>
+        </div>
       </div>
       <div class="design-third-section">
          <div class="design-third-section-carousel">

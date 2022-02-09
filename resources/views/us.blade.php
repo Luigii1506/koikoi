@@ -6,6 +6,12 @@
    <div class="container-fluid us-mainWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
+        <div class="menu-wrapper">
+          <span><a href="{{ url('/') }}"> Home</a></span>
+          <span><a href="{{ url('/us') }}"> Us</a></span>
+          <span><a href="{{ url('/web') }}"> Web</a></span>
+          <span><a href="{{ url('/design') }}"> Design</a></span>
+        </div>
       </div>
       <div class="us-first-section">
         <div class="us-title">GET TO KNOW <span class="pink">US</span></div>

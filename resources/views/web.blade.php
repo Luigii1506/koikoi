@@ -3,9 +3,15 @@
 
 @section('content')
 
-   <div class="container-fluid design-mainWrapper">
+   <div class="container-fluid web-mainWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
+        <div class="menu-wrapper">
+          <span><a href="{{ url('/') }}"> Home</a></span>
+          <span><a href="{{ url('/us') }}"> Us</a></span>
+          <span><a href="{{ url('/web') }}"> Web</a></span>
+          <span><a href="{{ url('/design') }}"> Design</a></span>
+        </div>
       </div>
       <div class="web-first-section">
         <div class="row">
@@ -46,9 +52,9 @@
         <img src="{{ asset('images/web/burbuja.png') }}" alt="" class="web-second-section-burbuja">
         <p class="web-second-section-text">CHOOSE WHAT YOU NEED</p>
         <div class="web-second-section-row-wrapper">
-          <div class="row web-second-section-row">
-            <div class="col-4 relative-position">
-              <div class="web-second-section-col-wrapper">
+          <div class="position-relative web-second-section-row h-100">
+            <div class="owl-carousel owl-theme owl-carousel-section h-100">
+              <div class="item text-center bottom-position">
                 <button class="web-second-section-col-button">A</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
@@ -56,10 +62,8 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
-            </div>
-            <div class="col-4 relative-position">
-              <div class="web-second-section-col-wrapper">
-                 <button class="web-second-section-col-button">B</button>
+              <div class="item text-center bottom-position">
+                <button class="web-second-section-col-button">B</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
@@ -68,10 +72,8 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
-            </div>
-            <div class="col-4 relative-position">
-              <div class="web-second-section-col-wrapper">
-                 <button class="web-second-section-col-button">C</button>
+              <div class="item text-center bottom-position">
+                <button class="web-second-section-col-button">C</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
