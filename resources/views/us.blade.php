@@ -16,8 +16,11 @@
       <div class="us-first-section">
         <div class="us-title">GET TO KNOW <span class="pink">US</span></div>
         <div class="us-text-wrapper">
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat</p>
-          <p> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+          <p class="mb-0 fw-bold">!Somos Koi Koi! El Studio web creativo que buscabas.</p>
+          <p>Nos encanta ir más alla de los horizontes, la imaginación o la creatividad para ofrecerte servicios que ayuden a mejorar tu identidad visual y presencia en la web. Queremos que tu negocio se proyecte diferente.</p>
+          <p class="mb-0">Con tus ganas de mejorar, nuestro ingenio (o un poco de locura), chambearemos juntos para que tus plataformas luzcan creativas, innovadoras, atractivas y sean funcionales.</p>
+          <p>Somos un equipo de animadores y desarrolladores web, enfocados a oferecer servicios web, animación y diseño integrados para que además de lucir muy chido, funcones aún mejor.</p>
+
         </div>    
       </div>
       <div class="us-second-section">

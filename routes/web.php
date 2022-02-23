@@ -25,10 +25,12 @@ Route::get('/web', function () {
     return view('web');
 });
 
-
 Route::get('/us', function () {
     return view('us');
 });
 
+Route::get('/animation', function () {
+    return view('animation');
+});
 
 

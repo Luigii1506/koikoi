@@ -18,8 +18,8 @@
             <div class="col-12 col-md-5 design-first-section-col-1">
                <div class="design-first-section-text-wrapper">
                   <p class="design-first-section-text-1">DESIGN</p>
-                  <p class="design-first-section-text-2">TE AYUDAMOS A CREAR TU IDENTIDAD VISUAL</p>
-                  <p class="design-first-section-text-3">Ofrece experiencias amigables, que luzcas chido y que impactes aun mejor.</p>
+                  <p class="design-first-section-text-2">PHRASE HERE</p>
+                  <p class="design-first-section-text-3">Algo más por aqui</p>
                </div>
             </div>
             <div class="col-12 col-md-7 design-first-section-second-col">
@@ -50,49 +50,39 @@
       <div class="design-second-section">
          <img src="{{ asset('images/design/fondo_blanco.png') }}" alt="" class="design-second-section-fondo-blanco">
          <img src="{{ asset('images/design/circulo.png') }}" class="design-second-section-burbuja">
-         <p class="design-second-section-text">ÉCHALE UN OJO A NUESTRAS OPCIONES</p>
+         <p class="design-second-section-text">CHOOSE WHAT YOU NEED</p>
         <div class="design-second-section-row-wrapper">
           <div class="position-relative design-second-section-row h-100">
             <div class="owl-carousel owl-theme owl-carousel-section-2 h-100">
               <div class="item text-center design-bottom-position">
-                <button class="design-second-section-col-button">BÁSICO</button>
-                <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
-                <p class="design-second-section-col-text">Elementos gráficos</p>
-                <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
-
+                <button class="design-second-section-col-button">A</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
               </div>
               <div class="item text-center design-bottom-position">
-                <button class="design-second-section-col-button">PRO</button>
-                <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
-                <p class="design-second-section-col-text">Elementos gráficos</p>
-                <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
-                <p class="design-second-section-col-text">Diseño de redes sociales</p>
-                <p class="design-second-section-col-text">Iconografía</p>
-                <p class="design-second-section-col-text">GIF del logo</p>
+                <button class="design-second-section-col-button">B</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
               </div>
               <div class="item text-center design-bottom-position">
-                <button class="design-second-section-col-button">PREMIUM</button>
-                <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
-                <p class="design-second-section-col-text">Elementos gráficos</p>
-                <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
-                <p class="design-second-section-col-text">Diseño de redes sociales</p>
-                <p class="design-second-section-col-text">Iconografía</p>
-                <p class="design-second-section-col-text">GIF del logo</p>
-                <p class="design-second-section-col-text">Cartel/Poster publictario</p>
-                <p class="design-second-section-col-text">Etiquetas de producto</p>
-                <p class="design-second-section-col-text">Animación (15 seg)</p>
+                <button class="design-second-section-col-button">C</button>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
+                <p class="design-second-section-col-text">Ejemplo cualquiera</p>
               </div>
             </div>
           </div>

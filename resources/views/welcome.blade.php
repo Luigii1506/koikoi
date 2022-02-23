@@ -23,13 +23,13 @@
 
       <div class="row">
         <div class="col-12 col-md-4">
-            <img alt="Quasar logo" src="{{ asset('images/inicio_card_1.png') }} " style="width: 100%; height: 100%" class="test">
+          <a href="{{ url('/web') }}"><img alt="Quasar logo" src="{{ asset('images/inicio_card_1.png') }} " style="width: 100%; height: 100%" class="test"></a>
         </div>
          <div class="col-12 col-md-4">
-            <img alt="Quasar logo" src="{{ asset('images/inicio_card_2.png') }}" style="width: 100%; height: 100%">
+            <a href="{{ url('/design') }}"><img alt="Quasar logo" src="{{ asset('images/inicio_card_2.png') }}" style="width: 100%; height: 100%"></a>
         </div>
          <div class="col-12 col-md-4">
-            <img alt="Quasar logo" src="{{ asset('images/inicio_card_3.png') }}" style="width: 100%; height: 100%">
+          <a href="{{ url('/animation') }}"><img alt="Quasar logo" src="{{ asset('images/inicio_card_3.png') }}" style="width: 100%; height: 100%"></a>
         </div>
       </div>
       <div class="home-third-section">
@@ -39,28 +39,33 @@
           </div>
           <div class="col-12 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_1.png') }}" class="home-third-section-small-img">
-            <p class="home-third-section-text">What do you need?</p>
-            <p class="home-third-section-text">- Get to know our</p>
-            <p class="home-third-section-text">services</p>
+            <p class="home-third-section-text-2">¿SABES LO QUE NECESITAS?</p>
+            <p class="home-third-section-text">identidad visual de tu</p>
+            <p class="home-third-section-text">proyecto o negocio.</p>
           </div>
           <div class="col-12 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_2.png') }}" class="home-third-section-small-img">
-            <p class="home-third-section-text">Contact us via mail</p>
-            <p class="home-third-section-text">Whatsapp or paloma</p>
+            <p class="home-third-section-text-2">CONTÁCTANOS</p>
+            <p class="home-third-section-text">Nos comunicaremos de</p>
+            <p class="home-third-section-text">volada para agendar</p>
+            <p class="home-third-section-text">videollamada.</p>
           </div>
           <div class="col-12 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_3.png') }}" class="home-third-section-small-img ">
-            <p class="home-third-section-text">We get to know you</p>
-            <p class="home-third-section-text">and what you need</p>
+            <p class="home-third-section-text-2">QUEREMOS CONOCERTE</p>
+            <p class="home-third-section-text">Cuéntanos tus necesidades y</p>
+            <p class="home-third-section-text">haznos saber cómo podemos</p>
+            <p class="home-third-section-text">videollamada para cotizarte a</p>
+            <p class="home-third-section-text">la medida.</p>
           </div>
           <div class="col-12 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_4.png') }}" class="home-third-section-big-img">
-            <p class="home-third-section-text">WORKING</p>
-            <p class="home-third-section-text">with you all the process</p>
-            <p class="home-third-section-text">to rock your brand</p>
+            <p class="home-third-section-text-2">TRABAJAMOS</p>
+            <p class="home-third-section-text-2">CONTIGO TODO</p>
+            <p class="home-third-section-text-2">EL PROCESO</p>
           </div>
         </div>
-        <div class="row q-mt-xl">
+        <div class="row q-mt-xl button-welcome">
           <img alt="Quasar logo" src="{{ asset('images/details.png') }}" class="home-third-section-details-img">
         </div>
         <div class="row home-third-section-circulo-img">
