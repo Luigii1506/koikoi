@@ -10,7 +10,7 @@ $(window).on("load", function() {
         loop:false,
         margin:10,
         nav: false,
-        dots: false,
+        dots: true,
         responsive:{
             0:{
                 items:1
@@ -29,7 +29,7 @@ $(window).on("load", function() {
         loop:false,
         margin:10,
         nav: false,
-        dots: false,
+        dots: true,
         responsive:{
             0:{
                 items:1
