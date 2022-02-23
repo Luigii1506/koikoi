@@ -2,6 +2,10 @@
     display: none;
     overflow: hidden;
 }
+#main {
+    overflow-x: hidden;
+}
+
 .q-toolbar {
     background-color: black;
 }
@@ -49,6 +53,14 @@
     left: 15px;
     top: 15px;
 }
+.logo-cel {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+
 .footer-img {
     width: 100%;
 }
@@ -305,7 +317,7 @@
     margin-bottom: 30px;
 }
 .home-third-section-text {
-    font-size: 27px;
+    font-size: 20px;
     text-align: center;
     line-height: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -313,9 +325,9 @@
     margin-bottom: 5px;
 }
 .home-third-section-text-2 {
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
-    line-height: 33px;
+    line-height: 32px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     margin-bottom: 5px;

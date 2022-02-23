@@ -2,6 +2,10 @@
     display: none;
     overflow: hidden;
 }
+#main {
+    overflow-x: hidden;
+}
+
 .q-toolbar {
     background-color: black;
 }
@@ -45,6 +49,14 @@
     left: 15px;
     top: 15px;
 }
+.logo-cel {
+    width: 30px;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 6px;
+}
+
 .footer-img {
     width: 100%;
 }
