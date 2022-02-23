@@ -18,7 +18,8 @@
             <div class="col-12 col-md-5 design-first-section-col-1">
                <div class="design-first-section-text-wrapper">
                   <p class="design-first-section-text-1">DESIGN</p>
-                  <p class="design-first-section-text-2">TE AYUDAMOS A CREAR TU IDENTIDAD VISUAL</p>
+                  <p class="design-first-section-text-2 mb-0">TE AYUDAMOS A CREAR</p>
+                  <p class="design-first-section-text-2">TU IDENTIDAD VISUAL</p>
                   <p class="design-first-section-text-3">Ofrece experiencias amigables, que luzcas chido y que impactes aun mejor.</p>
                </div>
             </div>
