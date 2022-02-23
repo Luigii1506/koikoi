@@ -40,7 +40,7 @@
           <div class="col-12 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_1.png') }}" class="home-third-section-small-img">
             <p class="home-third-section-text-2">¿SABES LO QUE NECESITAS?</p>
-            <p class="home-third-section-text">identidad visual de tu</p>
+            <p class="home-third-section-text">Identidad visual de tu</p>
             <p class="home-third-section-text">proyecto o negocio.</p>
           </div>
           <div class="col-12 col-sm-4 col-xl-3">
