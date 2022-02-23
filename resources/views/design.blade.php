@@ -20,7 +20,9 @@
                   <p class="design-first-section-text-1">DESIGN</p>
                   <p class="design-first-section-text-2 mb-0">TE AYUDAMOS A CREAR</p>
                   <p class="design-first-section-text-2">TU IDENTIDAD VISUAL</p>
-                  <p class="design-first-section-text-3">Ofrece experiencias amigables, luce chido e impacta aún mejor.</p>
+                  <p class="design-first-section-text-3 mb-0">Ofrece experiencias amigables,</p>
+                  <p class="design-first-section-text-3">luce chido e impacta aún mejor.</p>
+
                </div>
             </div>
             <div class="col-12 col-md-7 design-first-section-second-col">
