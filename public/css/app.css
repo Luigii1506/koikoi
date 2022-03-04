@@ -143,7 +143,7 @@
 }
 
 .animation-carrousel {
-
+    
 }
 
 /* Contact */ 
@@ -184,7 +184,7 @@
 }
 
 .contact-title {
-    font-size: calc(100vw * 117.55px / 1949);
+    font-size: 117.55px;
     color: #000000;
     font-weight: bold;
     font-family: 800;
