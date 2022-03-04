@@ -169,7 +169,7 @@
     width: -moz-fit-content;
     width: fit-content;
     right: calc(100vw * 400 / 1937);
-    bottom: calc(100vw * 186 / 1937);
+    bottom: 6%;
     position: absolute;
 }
 /* Design */

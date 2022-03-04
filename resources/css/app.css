@@ -161,7 +161,7 @@
 .footer-contact-wrapper {
     width: fit-content;
     right: calc(100vw * 400 / 1937);
-    bottom: 8%;
+    bottom: 6%;
     position: absolute;
 }
 /* Design */
