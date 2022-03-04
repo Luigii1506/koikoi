@@ -18,6 +18,13 @@
     height: 200px;
     display: block;
 }
+
+.header-contact {
+    position: absolute;
+    width: 100vw;
+    height: 200px;
+    display: block;
+}
 .menu-wrapper {
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -25,6 +32,7 @@
     right: 20px;
     position: absolute;
     top: 20px;
+    z-index: 999999;
 }
 
 .menu-wrapper > span {
@@ -52,6 +60,7 @@
     position: absolute;
     left: 15px;
     top: 15px;
+    z-index: 9999;
 }
 .logo-cel {
     width: 30px;
@@ -81,6 +90,88 @@
     margin: auto;
 }
 
+/* Contact */ 
+
+.contact-mainWrapper {
+    width: 100%;
+    height: 100vh;
+    position:   relative;
+    padding: 0px   
+}
+
+.contacto-fondo-pantalla {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.contact-wrapper {
+    position: absolute;
+    top: 0;
+    right: calc(100vw * 106 / 1937);
+    bottom: 0px;
+    margin: auto;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.contact-title-wrapper {
+   
+}
+
+.contact-span {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.contact-title {
+    font-size: 117.55px;
+    color: #000000;
+    font-weight: bold;
+    font-family: 800;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.custom-form-textarea {
+    background: #D7D9FF 0% 0% no-repeat padding-box;
+    border-radius: 47px;
+    opacity: 0.47;
+    width: calc(100vw * 1036 / 1937);
+    height:  calc(100vw * 183 / 1937);
+    font-size: 42px;
+    padding-left: 3%;
+}
+
+.custom-form-input {
+    background: #D7D9FF 0% 0% no-repeat padding-box;
+    border-radius: 43px;
+    opacity: 0.47;
+    width: calc(100vw * 758 / 1937);
+    height:  calc(100vw * 106 / 1937);
+    font-size: 42px;
+    padding-left: 3%;
+}
+
+.footer-contact-text {
+    color: #D7D9FF;
+    font-size: 45px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    line-height: 55px;
+    margin: 0px;
+}
+
+.footer-contact-wrapper {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    right: calc(100vw * 400 / 1937);
+    bottom: calc(100vw * 186 / 1937);
+    position: absolute;
+}
 /* Design */
 .design-mainWrapper {
     background-repeat: no-repeat;

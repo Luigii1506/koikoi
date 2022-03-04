@@ -11,6 +11,7 @@
           <span><a href="{{ url('/us') }}"> Us</a></span>
           <span><a href="{{ url('/web') }}"> Web</a></span>
           <span><a href="{{ url('/design') }}"> Design</a></span>
+          <span><a href="{{ url('/contact') }}"> Contact</a></span>
         </div>
       </div>
       <div class="home-first-section">

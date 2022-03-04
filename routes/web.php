@@ -33,4 +33,9 @@ Route::get('/animation', function () {
     return view('animation');
 });
 
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+
 
