@@ -32,16 +32,19 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                <ul class="navbar-nav">
                   <li class="nav-item">
-                     <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
+                     <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Inicio</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="{{ url('/us') }}">Us</a>
+                     <a class="nav-link" href="{{ url('/us') }}">Nosotros</a>
                   </li>
                   <li class="nav-item">
                      <a class="nav-link" href="{{ url('/web') }}">Web</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link" href="{{ url('/design') }}">Design</a>
+                     <a class="nav-link" href="{{ url('/design') }}">Diseño</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url('/contact') }}">Contáctanos</a>
                   </li>
                </ul>
             </div>
