@@ -155,6 +155,11 @@
     width: 100%;
 }
 
+.contacto-fondo-pantalla_mobile {
+    display: none;
+}
+
+
 .contact-wrapper {
     position: absolute;
     top: 0;
@@ -178,8 +183,7 @@
 .contact-title {
     font-size: 117.55px;
     color: #000000;
-    font-weight: bold;
-    font-family: 800;
+    font-weight: 900;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -1186,6 +1190,11 @@
     .header {
         display: none;
    }
+
+   .header-contact  {
+       display: none;
+   }
+
     .design-third-section-carousel {
         padding-left: 25px;
         padding-right: 25px;
@@ -1261,6 +1270,78 @@
 
 
 @media (max-width: 576px) {
+
+    .btn-contact {
+        width: calc(100vw * 475 / 1920);
+        height: calc(100vw * 143 / 1920);
+        background-color: #000000;
+        color: #D6D8FF;
+        font-size: calc(100vw * 76 / 1920);
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        line-height: 1px;
+        margin: auto;
+        display: block;
+        margin-top: calc(100vw * 137 / 1920);
+        border-radius: calc(100vw * 34 / 1920);;
+    }
+
+    .footer-contact-wrapper {
+        right: 0px;
+        left: 0px;
+        margin: auto;
+        bottom: calc(100vw * 695 / 1920);
+    }
+    
+    .footer-contact-text {
+        font-size: calc(100vw * 91 / 1920);
+    }
+
+    .custom-form-textarea {
+        font-size: calc(100vw * 87 / 1920);
+        width: calc(100vw * 1590 / 1920);
+        height: calc(100vw * 385 / 1920);
+        border-radius: calc(100vw * 47 / 1920);
+    }
+
+    .custom-form-input {
+        font-size: calc(100vw * 87 / 1920);
+        width: calc(100vw * 1590 / 1920);
+        height: calc(100vw * 222 / 1920);
+        border-radius: calc(100vw * 43 / 1920);
+    }
+
+    .contact-span {
+        font-size: calc(100vw * 76 / 1920);
+    }
+
+    .contact-wrapper {
+        right: 0px;
+        left: 0px;
+        width: fit-content;
+        top: calc(100vw * 400 / 1920);
+        bottom: unset;
+    }
+
+    .contact-title {
+        font-size: calc(100vw * 180 / 1920);
+        letter-spacing: 2px;
+    }
+
+    .contacto-fondo-pantalla {
+        display: none;
+    }
+
+    .contacto-fondo-pantalla_mobile {
+        position: absolute;
+        height: calc(100vh - 56px);
+        width: 100%;
+        display: block;
+    }
+
+    .contact-mainWrapper {
+        height: calc(100vh - 56px);   
+    }
 
     .mb-60-m {
         margin-bottom: 60px;
