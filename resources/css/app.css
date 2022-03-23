@@ -1233,6 +1233,35 @@
         width: 220px;
    }
 }
+
+
+@media (max-width: 576px) {
+    .home-first-section-text-wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+        max-width: unset;
+    }
+
+    .home-title-section-1 {
+        font-size: calc(100vw * 107 / 1928);
+        line-height: 11px;
+    }
+
+    .home-title-section-2 {
+        font-size: calc(100vw * 47 / 1928); 
+    }
+
+    .home-third-section {
+        background-image: url('../../public/images/fondo_blanco_mobile.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .home-mainWrapper {
+        
+    }
+}
+
 @media (max-width: 500px) {
 
     .design-third-section-text {
