@@ -16,12 +16,12 @@
         </div>
       </div>
       <div class="us-first-section">
-        <div class="us-title">GET TO KNOW <span class="pink">US</span></div>
+        <div class="us-title">CONÓCENOS</div>
         <div class="us-text-wrapper">
-          <p class="mb-0 fw-bold">!Somos Koi Koi! El Studio web creativo que buscabas.</p>
-          <p>Nos encanta ir más alla de los horizontes, la imaginación o la creatividad para ofrecerte servicios que ayuden a mejorar tu identidad visual y presencia en la web. Queremos que tu negocio se proyecte diferente.</p>
-          <p class="mb-0">Con tus ganas de mejorar, nuestro ingenio (o un poco de locura), chambearemos juntos para que tus plataformas luzcan creativas, innovadoras, atractivas y sean funcionales.</p>
-          <p>Somos un equipo de animadores y desarrolladores web, enfocados a oferecer servicios web, animación y diseño integrados para que además de lucir muy chido, funcones aún mejor.</p>
+          <p class="">¡Hola, somos Koi Koi! El Studio web creativo que tal vez no sabías…pero necesitas.</p>
+          <p> Formamos un equipo de talento puro: ilustradores, animadores digitales y desarrolladores medio geeks enfocados en ofrecer servicios web, de animación y diseño (Sí, todo en uno).</p>
+          <p class="">Nos encanta ir más allá de los horizontes, la imaginación o la creatividad para ofrecer opciones que ayuden a mejorar la identidad visual junto a la presencia de tu proyecto o negocio en línea.</p>
+          <p class="fw-bold mb-60-m">Proyéctate distinto. Que tus plataformas luzcan muy chidas, creativas, innovadoras, atractivas y muy funcionales.</p>
 
         </div>    
       </div>
@@ -37,5 +37,6 @@
    </div>
       
 @endsection
+  
 
-
+ 

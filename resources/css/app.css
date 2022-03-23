@@ -1262,6 +1262,15 @@
 
 @media (max-width: 576px) {
 
+    .mb-60-m {
+        margin-bottom: 60px;
+    }
+    
+    .us-title {
+        font-size: calc(100vw * 208 / 1920);
+        padding-top: 60px;
+    }
+
     .home-postick-text {
         bottom: calc(100vw * 300 / 1920);
         right: calc(100vw * 260 / 1920);
