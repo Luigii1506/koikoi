@@ -223,6 +223,19 @@
     position: absolute;
 }
 /* Design */
+
+.design-third-section-text-mobile {
+    display: none;
+}
+
+.design-first-section-text-mobile {
+    display: none;
+}
+
+.design-second-section-fondo-blanco-mobile {
+    display: none;
+}
+
 .design-mainWrapper {
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #ff00ff, #a82fd1, #5e2d9a, #251e5e, #040122);    background-size: cover;
@@ -1271,6 +1284,168 @@
 
 @media (max-width: 576px) {
 
+    /* Animation */
+
+    .animation-third-section {
+        display: none;
+    }
+
+    .animation-video {
+        width: 100%;
+    }
+
+    .animation-first-title {
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 2px;
+    }
+
+    .animation-second-title {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .animation-first-text {
+        font-size: 15px;
+        line-height: 17px;
+        font-weight: normal;
+    }
+
+    .animation-second-text {
+        font-size: 15px;
+        line-height: 17px;
+    }
+    
+    .animation-second-section {
+        height: 420px;
+        background-image: linear-gradient(to bottom, #000000, #0e0005, #15000f, #180018, #170021, #16012a, #110234, #01053f, #00074a, #000755, #03045f, #0c006a);
+    }
+
+    /* Design */
+
+    .design-third-section-text-mobile {
+        color: #DDC300;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        text-align: center;
+        font-size: 23px;
+        display: block;
+    }
+
+    .design-third-section-text {
+        display: none;
+    }
+
+    .design-second-section {
+        height: 425px;
+    }
+
+    .design-third-section {
+        height: 455px;
+    }
+    .design-third-section-carousel {
+        bottom: 45px;
+        height: auto;
+    }
+
+    .design-first-section {
+        margin-bottom: 0px;
+    }
+
+    .design-first-section-text-mobile {
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        font-size: 19px;
+        text-align: center;
+        display: block;
+        margin-top: 35px;
+    }
+
+    #carouselDesign2 {
+        width: 330px;
+        margin: auto;
+    }
+
+    .design-align-1 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 225px;
+    }
+
+    .design-align-2 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 300px;
+    }
+
+    .design-align-3 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 350px;
+    }
+
+    .design-second-section-text {
+        display: none;
+    }
+    
+    .design-second-section-row-wrapper {
+        top: 25px;
+        height: 355px;
+    }
+
+    .design-second-section-col-button {
+        width: 95px;
+        height: 24px;
+        min-width: unset;
+        min-height: unset;
+        font-size: 16px;
+    }
+
+    .design-second-section-col-text {
+        font-size: 13px;
+        line-height: 10px;
+    }
+
+    .design-second-section-fondo-blanco {
+        display: none;
+    }
+
+    .design-second-section-fondo-blanco-mobile {
+        display: block;
+        width: 100%;
+        height: 420px;
+    }
+
+    .design-mainWrapper {
+        background-image: linear-gradient(to bottom, #ff00ff, #ee17f7, #dd22ef, #cd28e6, #bd2cdd, #af2ed5, #a12fcd, #9430c4, #8630ba, #7830af, #6b2fa5, #5e2d9a);    }
+
+    .design-first-section-text-1 {
+        font-size: 71px;
+        line-height: 73px;
+        letter-spacing: 1px;
+    }
+
+    .design-first-section-text-2 {
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+    }
+
+    .design-first-section-text-3 {
+        font-size: 21px;
+        line-height: 23px;
+        letter-spacing: 1px;
+    }
+
+
     .btn-contact {
         width: calc(100vw * 475 / 1920);
         height: calc(100vw * 143 / 1920);
@@ -1507,7 +1682,7 @@
         margin-top: 20px;
     }
 }
-
+/*
 @media (max-width: 500px) {
 
     .design-third-section-text {
@@ -1526,3 +1701,4 @@
        top: 220px;
    }
 }
+*/

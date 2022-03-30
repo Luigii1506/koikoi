@@ -46,6 +46,9 @@
                   <li class="nav-item">
                      <a class="nav-link" href="{{ url('/contact') }}">Contáctanos</a>
                   </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="{{ url('/animation') }}">Animación</a>
+                  </li>
                </ul>
             </div>
          </div>
