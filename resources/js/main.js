@@ -42,7 +42,8 @@ $(window).on("load", function() {
     $('.owl-carousel-animation').owlCarousel({
         loop:true,
         margin:10,
-        nav:false,
+        nav: false,
+        dots: false,
         responsive:{
             0:{
                 items:1
@@ -51,7 +52,7 @@ $(window).on("load", function() {
                 items:3
             },
             1000:{
-                items:5
+                items:3
             }
         }
     }) 

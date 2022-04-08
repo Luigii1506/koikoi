@@ -92,6 +92,92 @@
 
 /* Animation */
 
+.animation-burbuja-1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: calc(100vw * 210 / 1938);
+    height: auto;
+}
+
+.animation-burbuja-2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: calc(100vw * 510 / 1938);
+    height: auto;
+}
+
+.animation-third-section {  
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    background-image: linear-gradient(to top, #0c1254, #0d1459, #0e155f, #101764, #11196a);
+}
+
+.btn-animation {
+    background-color: #000000;
+    color:#FFFFFF;
+    font-size: calc(100vw * 64 / 1938);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;   
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+
+.animation-mainWrapper {
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    padding: 0;
+}
+
+.center {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 0px;
+    bottom: 0px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.animation-video {
+    width: 100vw;
+}
+
+.animation-video-section {
+    position: absolute;
+    top: 0px;
+}
+
+.animation-video-title-wrapper {
+    position: absolute;
+    height: calc(100vw * 843.75 / 1500);
+    top: 0px;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.animation-video-title {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: calc(100vw * 140 / 1938);
+}
+
+.animation-header {
+    height: calc(100vw * 843.75 / 1500);
+}
+
 .animation-second-section {
     height: calc(100vw * 1037 / 1938);
     background-color: black;
@@ -102,16 +188,24 @@
     color: #9A38FF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 62px;
+    font-size: calc(100vw * 62 / 1938);
     text-align: center;
     /*border-color: #9A38FF 3px;*/
+}
+
+.animation-price {
+    color: #9A38FF;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: calc(100vw * 62 / 1938);
+    text-align: center;
 }
 
 .animation-first-title {
     color: #9A38FF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    font-size: 86px;
+    font-size: calc(100vw * 86 / 1938);
     text-align: center;
 }
 
@@ -135,11 +229,17 @@
     bottom: 0px;
 }
 
+.animation-second-section-text-wrapper {
+    margin-left: calc(100vw * 427 / 1938);
+    margin-right: calc(100vw * 427 / 1938);
+    text-align: center;
+}
+
 .animation-first-text {
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 41px;
+    font-weight: 500;
+    font-size: calc(100vw * 41 / 1938)
 }
 
 .animation-carrousel {
@@ -253,6 +353,7 @@
     overflow-y: scroll;
     padding: 0;
 }
+
 .design-first-section {
     margin-bottom: 50px;
 }
@@ -1300,10 +1401,17 @@
 
     /* Animation */
 
-    .animation-third-section {
-        display: none;
+    .animation-third-section {  
+        padding-bottom: 50px;
+    }
+    
+    .btn-animation {
+        margin-top: 50px;
     }
 
+    .animation-video-section {
+        position: unset;
+    }
     .animation-video {
         width: 100%;
     }
