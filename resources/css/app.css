@@ -650,6 +650,21 @@
     width: auto;
 }
 /* Web */
+
+.burbuja_1_mobile {
+    width: calc(100vw * 70 / 500);
+    position: absolute;
+    right: 0px;
+    top: calc(100vw * 50 / 500);
+}
+
+.burbuja_2_mobile {
+    width: calc(100vw * 125 / 500);
+    position: absolute;
+    left: 0px;
+    top: calc(100vw * 140 / 500);
+}
+
 .web-mainWrapper {
    /*background-image: url('../public/img/web/fondo.png');
    */
@@ -663,6 +678,7 @@
 }
 .web-first-section {
     margin-bottom: 50px;
+    position: relative;
 }
 .web-first-section-text-wrapper {
     position: relative;
@@ -1202,7 +1218,7 @@
   }
 
 }
-@media (max-width: 765px) {
+@media (max-width: 768px) {
 
     .design-first-section-col-1 {
         padding-left: 30px;
@@ -1381,6 +1397,106 @@
 
 @media (max-width: 576px) {
 
+    /* Web */
+    /*
+     
+    .web-first-section-text-1 {
+        font-size: 104px;
+        line-height: 106px;
+        letter-spacing: 1px;
+    }
+
+    .web-first-section-text-2 {
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+    .web-first-section-text-3 {
+        font-size: 13px;
+        line-height: 15px;
+        letter-spacing: 1px;
+    }
+    */
+    
+    .web-first-section-text-1 {
+        font-size: calc(100vw * 104 / 500);
+        line-height: calc(100vw * 106 / 500);
+        letter-spacing: 1px;
+    }
+
+    .web-first-section-text-2 {
+        font-size: calc(100vw * 18 / 500);
+        line-height: calc(100vw * 20 / 500);
+        letter-spacing: 1px;
+    }
+
+    .web-first-section-text-3 {
+        font-size: calc(100vw * 13 / 500);
+        line-height: calc(100vw * 15 / 500);
+        letter-spacing: 1px;
+    }
+
+    .web-second-section-fondo-blanco {
+        height: calc(100vw * 512 / 500);
+        width: 100%;
+    }
+
+    .web-second-section-text {
+        font-size: 18px;
+        color: white;
+        top: -10px;
+    }
+
+    .web-second-section-col-button {
+        width: 95px;
+        height: 24px;
+        min-width: unset;
+        min-height: unset;
+        font-size: 16px;
+    }
+
+    .web-second-section-col-text {
+        font-size: 13px;
+        line-height: 10px;
+    }
+
+    .web-second-section {
+        min-height: unset;
+        height: 400px;
+    }
+
+    .web-second-section-row-wrapper {
+        bottom: unset;
+        top: 0px;
+        height: 400px;
+    }
+
+    .web-align-1 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 155px;
+    }
+
+    .web-align-2 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 205px;
+    }
+
+    .web-align-3 {
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        position: absolute;
+        height: 255px;
+    }
+    /* Se acaba web */
+
     /* Animation */
 
     .animation-third-section {  
@@ -1549,6 +1665,7 @@
         letter-spacing: 1px;
     }
 
+    /* Se acaba design */
 
     .btn-contact {
         width: calc(100vw * 475 / 1920);

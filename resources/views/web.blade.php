@@ -20,8 +20,10 @@
           <div class="col-12 col-md-5 web-first-section-col-1">
             <div class="web-first-section-text-wrapper">
               <p class="web-first-section-text-1">WEB</p>
-              <p class="web-first-section-text-2">PHRASE HERE</p>
-              <p class="web-first-section-text-3">Algo más por aqui</p>
+              <p class="web-first-section-text-2 mb-0">¿PÁGINA WEB, TIENDA EN</p>
+              <p class="web-first-section-text-2 mb-2">LÍNEA O APP WEB?</p>
+              <p class="web-first-section-text-3 mb-0">Las desarrollamos</p>
+              <p class="web-first-section-text-3">A TUS NECESIDADES.</p>
             </div>
           </div>
           <div class="col-12 col-md-7 web-first-section-second-col">
@@ -48,15 +50,18 @@
                </div>
           </div>
         </div>
+        <img alt="" src="{{ asset('images/web/burbuja_1_mobile.png') }}" class="burbuja_1_mobile d-block d-md-none">
+        <img src="{{ asset('images/web/burbuja.png') }}" alt="" class="burbuja_2_mobile d-block d-md-none">
+
       </div>
       <div class="web-second-section">
         <img src="{{ asset('images/web/fondo_blanco-min.png') }}" alt="" class="web-second-section-fondo-blanco">
-        <img src="{{ asset('images/web/burbuja.png') }}" alt="" class="web-second-section-burbuja">
-        <p class="web-second-section-text">CHOOSE WHAT YOU NEED</p>
+        <img src="{{ asset('images/web/burbuja.png') }}" alt="" class="web-second-section-burbuja d-none d-md-block">
+        <p class="web-second-section-text">ELIGE LO QUE NECESITAS</p>
         <div class="web-second-section-row-wrapper">
           <div class="position-relative web-second-section-row h-100">
             <div class="owl-carousel owl-theme owl-carousel-section h-100">
-              <div class="item text-center bottom-position">
+              <div class="item text-center bottom-position web-align-1">
                 <button class="web-second-section-col-button">A</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
@@ -64,7 +69,7 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
-              <div class="item text-center bottom-position">
+              <div class="item text-center bottom-position web-align-2">
                 <button class="web-second-section-col-button">B</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
@@ -74,7 +79,7 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
-              <div class="item text-center bottom-position">
+              <div class="item text-center bottom-position web-align-3">
                 <button class="web-second-section-col-button">C</button>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
