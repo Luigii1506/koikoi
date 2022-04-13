@@ -3,7 +3,7 @@
 
 @section('content')
 
-   <div class="container-fluid animation-mainWrapper position-relative">
+   <div class="container-fluid animation-mainWrapper position-relative" id="animationWrapper">
       <div class="header animation-header">
          <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
          <div class="menu-wrapper">
@@ -25,6 +25,7 @@
              </div>
           </div>
       </div>
+      <div class="animaion-sections-wrapper">
       <div class="animation-second-section">
          <div class="animation-second-section-wrapper">
          <p class="animation-first-title">CONTEMOS TU HISTORIA</p>
@@ -55,6 +56,9 @@
 
         <button class="btn btn-dark btn-animation">CONTACTANOS</button>
       </div>
+
+      </div>
+      
    </div>
       
 @endsection

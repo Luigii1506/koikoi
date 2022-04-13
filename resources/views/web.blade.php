@@ -3,7 +3,7 @@
 
 @section('content')
 
-   <div class="container-fluid web-mainWrapper">
+   <div class="container-fluid web-mainWrapper" id="webWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
         <div class="menu-wrapper">
@@ -94,16 +94,17 @@
             </div>
           </div>
         </div>
-       
+        <p class="web-third-section-text-mobile d-block d-md-none">EJEMPLOS</p>
       </div>
 
       <div class="web-third-section">
-        <p class="web-third-section-text">EJEMPLOS</p>
+        <p class="web-third-section-text d-none d-md-block">EJEMPLOS</p>
         <div class="web-third-section-div"></div>
         <img src="{{ asset('images/web/circulo.png') }}" alt="" class="web-third-section-circulo">
+        <img src="{{ asset('images/web/circulo_mobile.png') }}" alt="" class="web-third-section-circulo-mobile">
+
       </div>
    </div>
       
 @endsection
-
 

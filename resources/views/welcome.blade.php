@@ -3,7 +3,7 @@
 
 @section('content')
 
-   <div class="container-fluid home-mainWrapper">
+   <div class="container-fluid home-mainWrapper" id="homeWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
         <div class="menu-wrapper">
@@ -90,7 +90,7 @@
           </div>
           <div class="col-6 col-xl-3">   
             <img alt="Quasar logo" src="{{ asset('images/tooltip_4.png') }}" class="home-third-section-big-img">
-            <p class="home-third-section-text-2">¡TRABAJAMOS JUNTOS</p>
+            <p class="home-third-section-text-2 mb-0">¡TRABAJAMOS JUNTOS</p>
             <p class="home-third-section-text-2">TODO EL PROCESO!</p>
             <p class="home-third-section-text">Sabes lo que necesitas y</p>
             <p class="home-third-section-text">tenemos lo que buscas.</p>

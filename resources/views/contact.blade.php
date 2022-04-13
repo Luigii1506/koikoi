@@ -3,7 +3,7 @@
 
 @section('content')
 
-<div class="container-fluid contact-mainWrapper">
+<div class="container-fluid contact-mainWrapper" id="contactWrapper">
       <div class="header-contact">
             <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
             <div class="menu-wrapper">

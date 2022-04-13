@@ -1,7 +1,13 @@
 $(window).on("load", function() {
-  
 
-    console.log('prueba');
+
+    $('#designWrapper').closest('body').addClass("bodyDesign");
+    $('#webWrapper').closest('body').addClass("bodyWeb");
+    $('#homeWrapper').closest('body').addClass("bodyHome");
+    $('#usWrapper').closest('body').addClass("bodyUs");
+    $('#contactWrapper').closest('body').addClass("bodyContact");
+    $('#animationWrapper').closest('body').addClass("bodyAnimation");
+
 
     AOS.init({disable: 'mobile'});
 

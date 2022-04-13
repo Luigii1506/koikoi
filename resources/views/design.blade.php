@@ -3,7 +3,7 @@
 
 @section('content')
 
-   <div class="container-fluid design-mainWrapper">
+   <div class="container-fluid design-mainWrapper" id="designWrapper">
       <div class="header">
          <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
          <div class="menu-wrapper">
@@ -116,7 +116,7 @@
       </div>
       <div class="design-third-section">
          <div class="design-third-section-carousel">
-            <p class="design-third-section-text-mobile">EJEMPLOS GRÁFICOS</p>
+            <p class="design-third-section-text-mobile mb-0">EJEMPLOS GRÁFICOS</p>
             <div id="carouselDesign1" class="carousel slide" data-bs-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
