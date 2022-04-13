@@ -1789,7 +1789,7 @@
     .bodyDesign {
         background-repeat: no-repeat;
         padding: 0px;
-        background-image: url(/images/fade.png?ebcd4c0ff779f6f62a1aed4fee78101a);
+        background-image: linear-gradient(to bottom, #ff00ff, #ee17f7, #dd22ef, #cd28e6, #bd2cdd, #af2ed5, #a12fcd, #9430c4, #8630ba, #7830af, #6b2fa5, #5e2d9a);
         background-size: cover;
     }
 
