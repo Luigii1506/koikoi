@@ -1403,6 +1403,47 @@
 
 @media (max-width: 576px) {
 
+    .web-first-section-second-col {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .design-first-section-second-col {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .web-flecha-izquierda,
+    .design-flecha-izquierda {
+        position: absolute;
+        width: calc(100vw * 16 / 500) !important;
+        left: calc(100vw * 76 / 500);
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .web-flecha-derecha,
+    .design-flecha-derecha {
+        position: absolute;
+        width: calc(100vw * 16 / 500) !important;
+        right: calc(100vw * 76 / 500);
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .container-carrousel-flechas {
+        width: fit-content;
+        margin: auto;
+        display: block;
+        padding-left: 50px;
+        padding-right: 50px !important;
+        position: relative;
+    }
+
     .us-mainWrapper {
         background: unset;
         background-image: unset;
@@ -1660,7 +1701,7 @@
     }
 
     #carouselDesign2 {
-        width: 330px;
+        width: 100%;
         margin: auto;
     }
 

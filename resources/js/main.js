@@ -61,7 +61,25 @@ $(window).on("load", function() {
                 items:3
             }
         }
-    }) 
+    });
+    
+    $('.web-flecha-derecha').click(function() {
+        console.log('click');
+        owl.trigger('next.owl.carousel');
+    });
+  
+    $('.web-flecha-izquierda').click(function() {
+        owl.trigger('prev.owl.carousel', [300]);
+    });
+
+    $('.design-flecha-derecha').click(function() {
+        console.log('click');
+        owl2.trigger('next.owl.carousel');
+    });
+  
+    $('.design-flecha-izquierda').click(function() {
+        owl2.trigger('prev.owl.carousel', [300]);
+    });
     /*
     $('.carousel-wrapper .right').click(function() {
       owl.trigger('next.owl.carousel');

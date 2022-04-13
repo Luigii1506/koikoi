@@ -113,6 +113,8 @@
             </div>
           </div>
         </div>
+        <img src="{{ asset('images/flecha_izquierda.png') }}" alt="" class="design-flecha-izquierda d-block d-md-none">
+        <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="design-flecha-derecha d-block d-md-none">
       </div>
       <div class="design-third-section">
          <div class="design-third-section-carousel">

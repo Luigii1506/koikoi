@@ -18,6 +18,9 @@
       <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
       <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css') }}">
       -->
+      <link rel="icon" 
+      type="image/png" 
+      href="{{ asset('images/favicon.png') }}">
       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -25,7 +28,7 @@
    <body class="antialiased">
       <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: unset">
          <div class="container-fluid"> 
-            <a class="navbar-brand" href="#"><img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo-cel"></a>
+            <a class="navbar-brand" href="{{ url('/') }}"><img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo-cel"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
