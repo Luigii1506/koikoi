@@ -198,7 +198,9 @@
 }
 
 .animation-price {
-    color: #9A38FF;
+    background: transparent linear-gradient(0deg, #742BF5 34%, #E980E2 100%) 0% 0% no-repeat padding-box;;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: calc(100vw * 62 / 1938);
@@ -206,7 +208,8 @@
 }
 
 .animation-first-title {
-    color: #9A38FF;
+    -webkit-text-stroke: 1px #9A38FF;
+    -webkit-text-fill-color: black;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     font-size: calc(100vw * 86 / 1938);
@@ -255,7 +258,7 @@
 .contact-mainWrapper {
     width: 100%;
     height: 100vh;
-    position:   relative;
+    position: relative;
     padding: 0px   
 }
 
@@ -601,7 +604,7 @@
     height: auto;
     margin: auto;
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .home-third-section-big-img {
     width: 300px;
@@ -617,6 +620,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 .home-third-section-text-2 {
     font-size: 28px;
@@ -625,6 +629,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .home-third-section-details-img {
@@ -689,6 +694,10 @@
     margin: auto;
 }
 
+.web-third-section-circulo-mobile {
+    display: none;
+}
+
 .burbuja_1_mobile {
     width: calc(100vw * 70 / 500);
     position: absolute;
@@ -704,10 +713,6 @@
 }
 
 .web-mainWrapper {
-   /*background-image: url('../public/img/web/fondo.png');
-   */
-   /*background-color: red;
-   */
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0px;
@@ -715,7 +720,7 @@
     background-image: linear-gradient(to top, #3500d2, #4e10d7, #621ddd, #7329e2, #8334e8, #872ed0, #882aba, #8528a5, #6d1b75, #51144b, #310f29, #10020a);
 }
 .web-first-section {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     position: relative;
 }
 .web-first-section-text-wrapper {
@@ -1336,6 +1341,7 @@
 
   .us-text-wrapper {
     font-size: 16px;
+    line-height: 18px;
   }
 }
 @media (max-width: 710px) {
@@ -1437,6 +1443,69 @@
 
 @media (max-width: 576px) {
 
+    .web-first-section-second-col {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .design-first-section-second-col {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .web-flecha-izquierda,
+    .design-flecha-izquierda {
+        position: absolute;
+        width: calc(100vw * 16 / 500) !important;
+        left: calc(100vw * 76 / 500);
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .web-flecha-derecha,
+    .design-flecha-derecha {
+        position: absolute;
+        width: calc(100vw * 16 / 500) !important;
+        right: calc(100vw * 76 / 500);
+        top: 0px;
+        bottom: 0px;
+        margin: auto;
+        cursor: pointer;
+    }
+
+    .container-carrousel-flechas {
+        width: -webkit-fit-content;
+        width: -moz-fit-content;
+        width: fit-content;
+        margin: auto;
+        display: block;
+        padding-left: 50px;
+        padding-right: 50px !important;
+        position: relative;
+    }
+
+    .us-mainWrapper {
+        background: unset;
+        background-image: unset;
+    }
+    
+    .bodyUs {
+        background-image: linear-gradient(to bottom, #000000 35%, #9a38ff 100%);
+        padding: 0px
+    }
+
+    .animaion-sections-wrapper {
+        background: linear-gradient(to bottom, #000000, #0e0005, #15000f, #180018, #170021, #16012a, #110234, #01053f, #00074a, #000755, #03045f, #0c006a);
+    }
+
+    .animation-second-section-text-wrapper {
+        width: calc(100vw * 372 / 500);
+        margin: auto;
+        text-align: left;
+    }
+
     /* Web */
     /*
      
@@ -1458,6 +1527,56 @@
         letter-spacing: 1px;
     }
     */
+
+    .web-third-section-text-mobile {
+        color: white;
+        position: absolute;
+        bottom: 0px;
+        left: calc(100vw * 24 / 500);
+        font-size: calc(100vw * 25 / 500);;
+        margin-bottom: 2px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        opacity: 0.62;
+    }
+    
+    .web-mainWrapper {
+       background: unset;
+    }
+
+    .bodyWeb {
+        background-repeat: no-repeat;
+        padding: 0px;
+        background-image: url(/images/fondo_mobile.png?3198b49a217bbb73e63438b4e65140d5);
+        background-size: cover;
+    }
+
+    .web-third-section-div {
+        width: calc(100vw * 295 / 500);
+        margin: auto;
+        height: calc(100vw * 216 / 500);
+    }
+
+    .web-third-section {
+        min-height: calc(100vw * 246 / 500);
+    }
+    
+    .web-third-section-circulo {
+        display: none;
+    }
+
+    .web-third-section-circulo-mobile {
+        display: block;
+        width: calc(100vw * 167 / 500);
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+    }
+
+    .web-third-section-text {
+        font-size: calc(100vw * 25 / 500);
+        line-height: calc(100vw * 25 / 500);
+    }
     
     .web-first-section-text-1 {
         font-size: calc(100vw * 104 / 500);
@@ -1540,11 +1659,12 @@
     /* Animation */
 
     .animation-third-section {  
-        padding-bottom: 50px;
+        padding-bottom: 25px;
+        background-image: unset;
     }
     
     .btn-animation {
-        margin-top: 50px;
+        margin-top: 25px;
     }
 
     .animation-video-section {
@@ -1555,30 +1675,30 @@
     }
 
     .animation-first-title {
-        font-size: 25px;
-        line-height: 30px;
+        font-size: calc(100vw * 28 / 500);
+        line-height:calc(100vw * 30 / 500);
         margin-bottom: 2px;
     }
 
     .animation-second-title {
-        font-size: 17px;
-        line-height: 22px;
+        font-size: calc(100vw * 20 / 500);
+        line-height:calc(100vw * 22 / 500);
     }
 
     .animation-first-text {
-        font-size: 15px;
-        line-height: 17px;
+        font-size: calc(100vw * 15 / 500);
+        line-height: calc(100vw * 18 / 500);
         font-weight: normal;
     }
 
     .animation-second-text {
-        font-size: 15px;
-        line-height: 17px;
+        font-size: calc(100vw * 15 / 500);
+        line-height: calc(100vw * 18 / 500);
     }
     
     .animation-second-section {
-        height: 420px;
-        background-image: linear-gradient(to bottom, #000000, #0e0005, #15000f, #180018, #170021, #16012a, #110234, #01053f, #00074a, #000755, #03045f, #0c006a);
+        height: 270px;
+        background-color: unset;
     }
 
     /* Design */
@@ -1623,7 +1743,7 @@
     }
 
     #carouselDesign2 {
-        width: 330px;
+        width: 100%;
         margin: auto;
     }
 
@@ -1684,7 +1804,16 @@
     }
 
     .design-mainWrapper {
-        background-image: linear-gradient(to bottom, #ff00ff, #ee17f7, #dd22ef, #cd28e6, #bd2cdd, #af2ed5, #a12fcd, #9430c4, #8630ba, #7830af, #6b2fa5, #5e2d9a);    }
+        /*background-image: linear-gradient(to bottom, #ff00ff, #ee17f7, #dd22ef, #cd28e6, #bd2cdd, #af2ed5, #a12fcd, #9430c4, #8630ba, #7830af, #6b2fa5, #5e2d9a);    */
+        background-image: unset;
+    }
+
+    .bodyDesign {
+        background-repeat: no-repeat;
+        padding: 0px;
+        background-image: linear-gradient(to bottom, #ff00ff, #ee17f7, #dd22ef, #cd28e6, #bd2cdd, #af2ed5, #a12fcd, #9430c4, #8630ba, #7830af, #6b2fa5, #5e2d9a);
+        background-size: cover;
+    }
 
     .design-first-section-text-1 {
         font-size: 71px;
@@ -1703,6 +1832,7 @@
         font-size: 21px;
         line-height: 23px;
         letter-spacing: 1px;
+        font-weight: 500;
     }
 
     /* Se acaba design */
@@ -1774,7 +1904,7 @@
         position: absolute;
         height: calc(100vh - 56px);
         width: 100%;
-        display: block;
+        display: none;
     }
 
     .contact-mainWrapper {
@@ -1861,7 +1991,7 @@
     .home-third-section {
         background-image: url(/images/fondo_blanco_mobile.png?8caaac466efe3eee4ab92fbce159e196);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
     }
     
     .home-first-section {
@@ -1870,7 +2000,23 @@
     }
 
     .home-mainWrapper {
+        background-image: unset;
+    }
+
+    .bodyHome {
+        background-image: url(/images/fondo_color.png?7372d96c82d2745dabe3394801decdab);
+        background-repeat: no-repeat;
         background-size: contain;
+    }
+
+    .bodyContact {
+        background-image: url(/images/fondo_contacto_mobile.png?9ff4a674400fd4a23407844662792204);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bodyAnimation {
+        background-color: black !important;
     }
 
     .home-second-section-desktop {

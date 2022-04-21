@@ -3,7 +3,7 @@
 
 @section('content')
 
-   <div class="container-fluid web-mainWrapper">
+   <div class="container-fluid web-mainWrapper" id="webWrapper">
    <div class="header">
         <img alt="koikoi_logo" src="{{ asset('images/koikoi_logo_blanco.png') }}" class="logo">
         <div class="menu-wrapper">
@@ -30,13 +30,13 @@
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-inner">
                      <div class="carousel-item active">
-                        <img src="https://cdn.quasar.dev/img/mountains.jpg" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/web/carrusel_1.png') }}" class="d-block w-100" alt="...">
                      </div>
                      <div class="carousel-item">
-                        <img src="https://cdn.quasar.dev/img/parallax1.jpg" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/web/carrusel_2.png') }}" class="d-block w-100" alt="...">
                      </div>
                      <div class="carousel-item">
-                        <img src="https://cdn.quasar.dev/img/parallax2.jpg" class="d-block w-100" alt="...">
+                        <img src="{{ asset('images/web/carrusel_3.png') }}" class="d-block w-100" alt="...">
                      </div>
                   </div>
                   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -62,12 +62,12 @@
           <div class="position-relative web-second-section-row h-100">
             <div class="owl-carousel owl-theme owl-carousel-section h-100">
               <div class="item text-center bottom-position web-align-1">
-                <button class="web-second-section-col-button">A</button>
-                <p class="web-second-section-col-text">Ejemplo cualquiera</p>
-                <p class="web-second-section-col-text">Ejemplo cualquiera</p>
-                <p class="web-second-section-col-text">Ejemplo cualquiera</p>
-                <p class="web-second-section-col-text">Ejemplo cualquiera</p>
-                <p class="web-second-section-col-text">Ejemplo cualquiera</p>
+                  <button class="web-second-section-col-button">A</button>
+                  <p class="web-second-section-col-text">Ejemplo cualquiera</p>
+                  <p class="web-second-section-col-text">Ejemplo cualquiera</p>
+                  <p class="web-second-section-col-text">Ejemplo cualquiera</p>
+                  <p class="web-second-section-col-text">Ejemplo cualquiera</p>
+                  <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
               <div class="item text-center bottom-position web-align-2">
                 <button class="web-second-section-col-button">B</button>
@@ -96,16 +96,19 @@
             <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="web-right-arrow">
           </div>
         </div>
-       
+        <p class="web-third-section-text-mobile d-block d-md-none">EJEMPLOS</p>
+        <img src="{{ asset('images/flecha_izquierda.png') }}" alt="" class="web-flecha-izquierda d-block d-md-none">
+        <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="web-flecha-derecha d-block d-md-none">
       </div>
 
       <div class="web-third-section">
-        <p class="web-third-section-text">EJEMPLOS</p>
+        <p class="web-third-section-text d-none d-md-block">EJEMPLOS</p>
         <div class="web-third-section-div"></div>
         <img src="{{ asset('images/web/circulo.png') }}" alt="" class="web-third-section-circulo">
+        <img src="{{ asset('images/web/circulo_mobile.png') }}" alt="" class="web-third-section-circulo-mobile">
+
       </div>
    </div>
       
 @endsection
-
 
