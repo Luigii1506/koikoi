@@ -23,19 +23,19 @@
       </div>
             -->
       <div class="contact-wrapper">
-            <div class="contact-title-wrappaer"><p class="contact-title">CONTÁCTANOS</p></div>
+            <div class="contact-title-wrappaer"><p class="contact-title">{{__('contact.title')}}</p></div>
             <div class="contact-form-wrapper">
                   <form class="custom-form" method="post" action="{{ url('/sendmail') }}">
                         {{  csrf_field()   }}
                         <div class="form-group mb-3">
-                              <span class="contact-span"><span class="contact-span">Mándanos un correo</span></span>
-                              <textarea class="form-control textarea custom-form-textarea" rows="5" placeholder="Hey me interesa una cotización" name="mensaje"></textarea>
+                              <span class="contact-span"><span class="contact-span">{{__('contact.input_1')}}</span></span>
+                              <textarea class="form-control textarea custom-form-textarea" rows="5" placeholder="{{__('contact.placeholder_1')}}" name="mensaje"></textarea>
                         </div>
                         <div class="form-group">
-                              <span class="contact-span">Tu correo</span>
+                              <span class="contact-span">{{__('contact.input_2')}}</span>
                               <input type="email" class="form-control custom-form-input"  placeholder="correo@gmail.com" name="email">
                         </div>
-                        <button class="btn btn-contact">ENVIAR</button>
+                        <button class="btn btn-contact">{{__('contact.button')}}</button>
                   </form>
             </div>
       </div>
