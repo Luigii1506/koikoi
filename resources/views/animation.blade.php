@@ -31,8 +31,13 @@
          <p class="animation-first-title">CONTEMOS TU HISTORIA</p>
                <p class="animation-second-title">COMO NADIE MÁS LO HA HECHO...</p>
             <div class="animation-second-section-text-wrapper">
-               <p class="animation-first-text"><span class="fw-bold">Cuéntanos y cotiza tu idea.</span> Una animación depende de muchos aspectos para calcular su costo: Estilo, duración, detalle, urgencia, etc...</p>
-               <p class="animation-first-text"><span class="fw-bold"> Pero para que no te asustes</span> el costo va</p>
+               <p class="animation-first-text"><span class="fw-bold">Descríbenos  el qué, cómo, cuándo y dónde de tu proyecto o negocio. 
+                  Con imaginación, nosotros nos encargamos del resto. 
+                  </span> </p>
+               <p class="animation-first-text">Personalizamos la animación a tus necesidades para que comuniques de forma concreta y sencilla las ideas más chidas e importantes que tienes en mente.
+               </p>
+               <p class="animation-first-text"><span class="fw-bold"> Analizaremos detalles como el estilo, duración o urgencia para darte propuestas accesibles, creativas e innovadoras que capten la atención de tu público. 
+               </p>
                <p class="animation-price">desde $100dlls</p>
             </div>          
          </div>
