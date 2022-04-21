@@ -92,6 +92,8 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
             </div>
+            <img src="{{ asset('images/flecha_izquierda.png') }}" alt="" class="web-left-arrow">
+            <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="web-right-arrow">
           </div>
         </div>
        

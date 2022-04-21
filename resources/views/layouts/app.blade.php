@@ -49,6 +49,10 @@
                   <li class="nav-item">
                      <a class="nav-link" href="{{ url('/animation') }}">Animación</a>
                   </li>
+                  <li class="nav-item">
+                     <a href="{{url('locale/es')}}"><button class="btn btn-idioma {{ App::getLocale() == 'es' ? 'active' : '' }}" id="es">ESP</button></a>
+                     <a href="{{url('locale/en')}}"><button class="btn btn-idioma {{ App::getLocale() == 'en' ? 'active' : '' }}" id="en">ING</button></a>
+                  </li>
                </ul>
             </div>
          </div>

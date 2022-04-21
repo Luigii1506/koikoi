@@ -52,6 +52,10 @@
  height: fit-content;
 }
 
+.letter-spacing-negative {
+    letter-spacing: -0.5px;
+}
+
 .pink {
     color:#E980E2;
   }
@@ -666,6 +670,24 @@
     width: auto;
 }
 /* Web */
+
+.web-left-arrow {
+    position: absolute;
+    left: 0px;
+    width: calc(100vw * 15 / 500);
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.web-right-arrow {
+    position: absolute;
+    right: 0px;
+    width: calc(100vw * 15 / 500);
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
 
 .burbuja_1_mobile {
     width: calc(100vw * 70 / 500);
@@ -1821,8 +1843,8 @@
     }
 
     .home-first-section-text-wrapper {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
         max-width: unset;
     }
 

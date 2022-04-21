@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use Illuminate\Support\Facades\Session; //Here
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -37,5 +37,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+Route::get('locale/{locale}', function ($locale) {
+    Session::put('locale',$locale);
+    return redirect()->back();
+});
 
 

@@ -13,13 +13,17 @@
           <span><a href="{{ url('/design') }}"> Design</a></span>
           <span><a href="{{ url('/contact') }}"> Contact</a></span>
           <span><a href="{{ url('/animation') }}"> Animation</a></span>
+          <div class="lang-wrapper">
+            <a href="{{url('locale/es')}}"><button class="btn btn-idioma {{ App::getLocale() == 'es' ? 'active' : '' }}" id="es">ESP</button></a>
+            <a href="{{url('locale/en')}}"><button class="btn btn-idioma {{ App::getLocale() == 'en' ? 'active' : '' }}" id="en">ING</button></a>
+          </div>
         </div>
       </div>
       <div class="home-first-section">
           <div class="home-first-section-text-wrapper">
-            <p class="home-title-section-1">Si no te habían visto,</p>
-            <p class="home-title-section-1"> es porque<span class="pink"> no nos habías visto.</span></p>
-            <p class="home-title-section-2">El estudio creativo binacional que estabas buscando</p>
+            <p class="home-title-section-1">{{__('home.home_title_1')}}</p>
+            <p class="home-title-section-1"> {{__('home.home_title_2')}}<span class="pink letter-spacing-negative"> {{__('home.home_title_3')}}</span></p>
+            <p class="home-title-section-2">{{__('home.home_subtitle')}}</p>
           </div>
           <img class="home-desktop-mobile" src="{{ asset('images/computador_mobile.png') }}" alt="">
           <div class="row home-second-section-mobile">
@@ -43,7 +47,7 @@
               </a>
             </div>
             <div class="col-12">
-              <p class="third-section-title-mobile">¿CÓMO?</p> 
+              <p class="third-section-title-mobile">{{__('home.home_how')}}</p> 
             </div>
           </div>
            
@@ -63,11 +67,11 @@
       <div class="home-third-section">
         <div class="row home-row-third-section">
           <div class="col-12">
-            <div data-aos="fade-up"> <p class="home-third-section-title">¿CÓMO?</p></div>
+            <div data-aos="fade-up"> <p class="home-third-section-title">{{__('home.home_how')}}</p></div>
           </div>
           <div class="col-6 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_1.png') }}" class="home-third-section-small-img">
-            <p class="home-third-section-text-2">¿QUÉ NECESITAS?</p>
+            <p class="home-third-section-text-2">{{__('home.col_1_title')}}</p>
             <p class="home-third-section-text">Tenemos opciones que</p>
             <p class="home-third-section-text">suman valor a la</p>
             <p class="home-third-section-text">IDENTIDAD VISUAL de</p>
@@ -75,13 +79,13 @@
           </div>  
           <div class="col-6 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_2.png') }}" class="home-third-section-small-img">
-            <p class="home-third-section-text-2">¡CONTÁCTANOS!</p>
+            <p class="home-third-section-text-2">{{__('home.col_2_title')}}</p>
             <p class="home-third-section-text">Whatsapp, mensaje o</p>
             <p class="home-third-section-text">paloma mensajera.</p>
           </div>    
           <div class="col-6 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_3.png') }}" class="home-third-section-small-img ">
-            <p class="home-third-section-text-2">QUEREMOS CONOCERTE</p>
+            <p class="home-third-section-text-2">{{__('home.col_3_title')}}</p>
             <p class="home-third-section-text">Cuéntanos tu proyecto.</p>
             <p class="home-third-section-text">Platícanos tus necesidades</p>
             <p class="home-third-section-text">para comprenderte mejor.</p>
@@ -90,8 +94,7 @@
           </div>
           <div class="col-6 col-xl-3">   
             <img alt="Quasar logo" src="{{ asset('images/tooltip_4.png') }}" class="home-third-section-big-img">
-            <p class="home-third-section-text-2">¡TRABAJAMOS JUNTOS</p>
-            <p class="home-third-section-text-2">TODO EL PROCESO!</p>
+            <p class="home-third-section-text-2">{{__('home.col_4_title')}}</p>
             <p class="home-third-section-text">Sabes lo que necesitas y</p>
             <p class="home-third-section-text">tenemos lo que buscas.</p>
             <p class="home-third-section-text">¡Ahora sí a trabajar!</p>
@@ -111,7 +114,7 @@
             class="home-animation-postick-2">
             <img alt="Quasar logo" src="{{ asset('images/postick_2.png') }}" class="home-third-section-circulo-img-2">
             <div class="home-postick-text">
-              <p class="home-postick-text-1">Contact us</p>
+              <p class="home-postick-text-1">{{__('home.contact_us')}}</p>
               <p class="home-postick-text-2">koikoi@studio.com</p>
             </div>
           </div>
