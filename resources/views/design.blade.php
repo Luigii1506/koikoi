@@ -19,9 +19,13 @@
          <div class="row">
             <div class="col-12 col-md-5 design-first-section-col-1">
                <div class="design-first-section-text-wrapper">
-                  <p class="design-first-section-text-1">DISEÑO</p>
-                  <p class="design-first-section-text-2">¿IDENTIDAD VISUAL?</p>
-                  <p class="design-first-section-text-3">Te ayudamos a crearla.</p>
+                  <p class="design-first-section-text-1">{{__('design.title')}}</p>
+                  <p class="design-first-section-text-2">{{__('design.sub_title_1')}}</p>
+                  <p class="design-first-section-text-2">{{__('design.sub_title_2')}}</p>
+
+                  <p class="design-first-section-text-3 mb-0">{{__('design.sub_sub_title_1')}}</p>
+                  <p class="design-first-section-text-3">{{__('design.sub_sub_title_2')}}</p>
+
 
                </div>
             </div>
@@ -58,7 +62,7 @@
                </div>
             </div>
             <div class="col-12">
-               <p class="design-first-section-text-mobile">ELIGE LO QUE NECESITAS</p>
+               <p class="design-first-section-text-mobile">{{__('design.second_title')}}</p>
             </div>
          </div>
       </div>
@@ -67,7 +71,7 @@
          <img src="{{ asset('images/design/fondo_blanco_mobile.png') }}" alt="" class="design-second-section-fondo-blanco-mobile">
 
          <img src="{{ asset('images/design/circulo.png') }}" class="design-second-section-burbuja">
-         <p class="design-second-section-text">ÉCHALE UN OJO A NUESTRAS OPCIONES</p>
+         <p class="design-second-section-text">{{__('design.second_title')}}</p>
         <div class="design-second-section-row-wrapper">
           <div class="position-relative design-second-section-row h-100">
             <div class="owl-carousel owl-theme owl-carousel-section-2 h-100">
@@ -118,7 +122,7 @@
       </div>
       <div class="design-third-section">
          <div class="design-third-section-carousel">
-            <p class="design-third-section-text-mobile mb-0">EJEMPLOS GRÁFICOS</p>
+            <p class="design-third-section-text-mobile mb-0">{{__('design.examples')}}</p>
             <div id="carouselDesign1" class="carousel slide" data-bs-ride="carousel">
                <div class="carousel-inner">
                   <div class="carousel-item active">
@@ -150,7 +154,7 @@
                </button>
             </div>
          </div>
-         <p class="design-third-section-text">EJEMPLOS GRÁFICOS</p>
+         <p class="design-third-section-text">{{__('design.examples')}}</p>
       </div>
    </div>
       
