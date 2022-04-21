@@ -19,11 +19,11 @@
         <div class="row">
           <div class="col-12 col-md-5 web-first-section-col-1">
             <div class="web-first-section-text-wrapper">
-              <p class="web-first-section-text-1">WEB</p>
-              <p class="web-first-section-text-2 mb-0">¿PÁGINA WEB, TIENDA EN</p>
-              <p class="web-first-section-text-2 mb-2">LÍNEA O APP WEB?</p>
-              <p class="web-first-section-text-3 mb-0">Las desarrollamos</p>
-              <p class="web-first-section-text-3">A TUS NECESIDADES.</p>
+              <p class="web-first-section-text-1">{{__('web.title')}}</p>
+              <p class="web-first-section-text-2 mb-0">{{__('web.sub_title_1')}}</p>
+              <p class="web-first-section-text-2 mb-2">{{__('web.sub_title_2')}}</p>
+              <p class="web-first-section-text-3 mb-0">{{__('web.sub_sub_title_1')}}</p>
+              <p class="web-first-section-text-3">{{__('web.sub_sub_title_2')}}</p>
             </div>
           </div>
           <div class="col-12 col-md-7 web-first-section-second-col">
@@ -57,7 +57,7 @@
       <div class="web-second-section">
         <img src="{{ asset('images/web/fondo_blanco-min.png') }}" alt="" class="web-second-section-fondo-blanco">
         <img src="{{ asset('images/web/burbuja.png') }}" alt="" class="web-second-section-burbuja d-none d-md-block">
-        <p class="web-second-section-text">ELIGE LO QUE NECESITAS</p>
+        <p class="web-second-section-text">{{__('web.second_title')}}</p>
         <div class="web-second-section-row-wrapper">
           <div class="position-relative web-second-section-row h-100">
             <div class="owl-carousel owl-theme owl-carousel-section h-100">
@@ -92,17 +92,15 @@
                 <p class="web-second-section-col-text">Ejemplo cualquiera</p>
               </div>
             </div>
-            <img src="{{ asset('images/flecha_izquierda.png') }}" alt="" class="web-left-arrow">
-            <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="web-right-arrow">
           </div>
         </div>
-        <p class="web-third-section-text-mobile d-block d-md-none">EJEMPLOS</p>
+        <p class="web-third-section-text-mobile d-block d-md-none">{{__('web.examples')}}</p>
         <img src="{{ asset('images/flecha_izquierda.png') }}" alt="" class="web-flecha-izquierda d-block d-md-none">
         <img src="{{ asset('images/flecha_derecha.png') }}" alt="" class="web-flecha-derecha d-block d-md-none">
       </div>
 
       <div class="web-third-section">
-        <p class="web-third-section-text d-none d-md-block">EJEMPLOS</p>
+        <p class="web-third-section-text d-none d-md-block">{{__('web.examples')}}</p>
         <div class="web-third-section-div"></div>
         <img src="{{ asset('images/web/circulo.png') }}" alt="" class="web-third-section-circulo">
         <img src="{{ asset('images/web/circulo_mobile.png') }}" alt="" class="web-third-section-circulo-mobile">
