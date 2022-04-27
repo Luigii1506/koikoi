@@ -13,12 +13,17 @@ return [
     'col_3_title'=>'WE WANT TO GET TO KNOW YOU.',
     'col_4_title'=>'LET\'S WORK ON THE WHOLE PROCESS TOGETHER!',
     
-    'contact_us'=> 'Contact us',
-    
-    'home_'=>' ',
-    'home_'=>' ',
-    'home_'=>' ',
-    'home_'=>' ',
-    'home_'=>' ',
+
+
+    'col_1_text'=>'Check our services. We create your website or online store, your visual identity or animate your most original ideas.',
+    'col_2_text'=>'Send us an email, WhatsApp message or carrier pigeon. We\'ll contact you right away to learn more about your project.',
+    'col_3_text'=>'We will schedule a video call to talk, get to know you and give you a customized quote.',
+    'col_4_text'=>'We’ve gone over the details. We know what you need and we have what you\'re looking for.',
+    'col_4_text_2'=>'Now let’s get to work!',
+
+    'contact_us'=> 'Contact us',    
     
 ];
+
+
+

@@ -20,13 +20,11 @@
             <div class="col-12 col-md-5 design-first-section-col-1">
                <div class="design-first-section-text-wrapper">
                   <p class="design-first-section-text-1">{{__('design.title')}}</p>
-                  <p class="design-first-section-text-2">{{__('design.sub_title_1')}}</p>
-                  <p class="design-first-section-text-2">{{__('design.sub_title_2')}}</p>
+                  <p class="design-first-section-text-2 mb-0">{{__('design.sub_title_1')}}</p>
+                  <p class="design-first-section-text-2 mb-2">{{__('design.sub_title_2')}}</p>
 
                   <p class="design-first-section-text-3 mb-0">{{__('design.sub_sub_title_1')}}</p>
-                  <p class="design-first-section-text-3">{{__('design.sub_sub_title_2')}}</p>
-
-
+                 <!-- <p class="design-first-section-text-3">{{__('design.sub_sub_title_2')}}</p>-->
                </div>
             </div>
             <div class="col-12 col-md-7 design-first-section-second-col">

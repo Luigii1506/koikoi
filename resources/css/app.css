@@ -175,7 +175,7 @@
 }
 
 .animation-second-section {
-    height: calc(100vw * 1037 / 1938);
+    height: calc(100vw * 1200 / 1938);
     background-color: black;
     position: relative;
 }
@@ -236,7 +236,14 @@
     color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: calc(100vw * 41 / 1938)
+    font-size: calc(100vw * 36 / 1938)
+}
+
+.animation-first-text-bold {
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: calc(100vw * 46 / 1938);
+    margin-bottom: 0px;
 }
 
 .animation-carrousel {
@@ -693,7 +700,7 @@
     width: calc(100vw * 125 / 500);
     position: absolute;
     left: 0px;
-    top: calc(100vw * 140 / 500);
+    top: calc(100vw * 235 / 500);
 }
 
 .web-mainWrapper {
@@ -1565,15 +1572,22 @@
     }
 
     .web-first-section-text-2 {
+        /*
         font-size: calc(100vw * 18 / 500);
         line-height: calc(100vw * 20 / 500);
         letter-spacing: 1px;
+        */
+        font-size: calc(100vw * 22 / 400);
+        line-height: calc(100vw * 24 / 400);
+        letter-spacing: 1px;
+        margin-bottom: 4px;
     }
 
     .web-first-section-text-3 {
-        font-size: calc(100vw * 13 / 500);
-        line-height: calc(100vw * 15 / 500);
+        font-size: 18px;
+        line-height: 20px;
         letter-spacing: 1px;
+        font-weight: 500;
     }
 
     .web-second-section-fondo-blanco {
@@ -1657,7 +1671,7 @@
     .animation-first-title {
         font-size: calc(100vw * 28 / 500);
         line-height:calc(100vw * 30 / 500);
-        margin-bottom: 2px;
+        margin-bottom: 4px !important;
     }
 
     .animation-second-title {
@@ -1677,11 +1691,16 @@
     }
     
     .animation-second-section {
-        height: 270px;
+        height: 350px;
         background-color: unset;
     }
 
     /* Design */
+
+    .design-first-section-col-1 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
     .design-third-section-text-mobile {
         color: #DDC300;
@@ -1802,15 +1821,15 @@
     }
 
     .design-first-section-text-2 {
-        font-size: 24px;
-        line-height: 26px;
+        font-size: calc(100vw * 21 / 400);
+        line-height: calc(100vw * 24 / 400);
         letter-spacing: 1px;
         margin-bottom: 4px;
     }
 
     .design-first-section-text-3 {
-        font-size: 21px;
-        line-height: 23px;
+        font-size: 18px;
+        line-height: 20px;
         letter-spacing: 1px;
         font-weight: 500;
     }
@@ -2060,7 +2079,7 @@
 
     .home-third-section-text {
         font-size: calc(100vw * 53 / 1920);
-        line-height: calc(100vw * 53 / 1920);
+        line-height: calc(100vw * 60 / 1920);
     }
 
     .home-third-section-big-img {

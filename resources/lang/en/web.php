@@ -2,10 +2,11 @@
 
 return [
     'title'=>'WEB',
-    'sub_title_1'=>'Website, online store',
-    'sub_title_2'=>'or web APP?',
-    'sub_sub_title_1'=>'Sure. We customize it',
-    'sub_sub_title_2'=>'to your style and needs.',
-    'second_title'=>'Choose your best option:',
+    'sub_title_1'=>'WE CREATE PLATFORMS',
+    'sub_title_2'=>'CUSTOMIZED AND ORIGINAL',
+    'sub_sub_title_1'=>'Websites',
+    'sub_sub_title_2'=>'Online Store',
+    'sub_sub_title_3'=>'Web App',
+    'second_title'=>'Quote with us',
     'examples'=>'Examples',
 ];

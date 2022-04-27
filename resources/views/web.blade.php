@@ -23,7 +23,8 @@
               <p class="web-first-section-text-2 mb-0">{{__('web.sub_title_1')}}</p>
               <p class="web-first-section-text-2 mb-2">{{__('web.sub_title_2')}}</p>
               <p class="web-first-section-text-3 mb-0">{{__('web.sub_sub_title_1')}}</p>
-              <p class="web-first-section-text-3">{{__('web.sub_sub_title_2')}}</p>
+              <p class="web-first-section-text-3 mb-0">{{__('web.sub_sub_title_2')}}</p>
+              <p class="web-first-section-text-3">{{__('web.sub_sub_title_3')}}</p>
             </div>
           </div>
           <div class="col-12 col-md-7 web-first-section-second-col">

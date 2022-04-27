@@ -77,8 +77,7 @@
             <p class="home-third-section-text">suman valor a la</p>
             <p class="home-third-section-text">IDENTIDAD VISUAL de</p>
             <p class="home-third-section-text">tu proyecto o negocio.</p-->
-              <p class="home-third-section-text">Te recomendamos checar nuestros servicios en línea, desarrollar propuestas visuales que sumen a tu identidad corporativa o animar aquellas ideas que necesitas compartir con tus clientes. 
-              </p>
+              <p class="home-third-section-text">{{__('home.col_1_text')}}</p>
           </div>  
           <div class="col-6 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_2.png') }}" class="home-third-section-small-img">
@@ -87,9 +86,7 @@
             <p class="home-third-section-text">Whatsapp, mensaje o</p>
             <p class="home-third-section-text">paloma mensajera.</p>
             -->
-            <p class="home-third-section-text">Mándanos un correo, mensaje por WhatsApp o paloma mensajera. 
-              Nos comunicaremos de volada para conocer más acerca de las necesidades de tu proyecto.
-              </p>
+            <p class="home-third-section-text">{{__('home.col_2_text')}}</p>
           </div>    
           <div class="col-6 col-sm-4 col-xl-3">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_3.png') }}" class="home-third-section-small-img ">
@@ -101,8 +98,7 @@
             <p class="home-third-section-text">La idea es cotizarte a la</p>
             <p class="home-third-section-text">medida.</p>
             -->
-            <p class="home-third-section-text">Cuéntanos a detalle lo que tienes en mente para comprenderte lo mejor posible. La idea es brindarte una cotización justa y la medida.
-            </p>
+            <p class="home-third-section-text">{{__('home.col_3_text')}}</p>
           </div>
           <div class="col-6 col-xl-3">   
             <img alt="Quasar logo" src="{{ asset('images/tooltip_4.png') }}" class="home-third-section-big-img">
@@ -112,8 +108,9 @@
             <p class="home-third-section-text">tenemos lo que buscas.</p>
             <p class="home-third-section-text">¡Ahora sí a trabajar!</p>
             -->
-            <p class="home-third-section-text">Ya sabes lo que necesitas, tenemos lo que buscas y afinamos los últimos detalles para trabajar en equipo, ¡Ahora sí a chambear! 
-            </p>
+            <p class="home-third-section-text mb-0">{{__('home.col_4_text')}} </p>
+            <p class="home-third-section-text">{{__('home.col_4_text_2')}} </p>
+
           </div>
         </div>
         <div class="row q-mt-xl button-welcome">

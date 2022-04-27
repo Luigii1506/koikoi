@@ -28,17 +28,20 @@
       <div class="animaion-sections-wrapper">
       <div class="animation-second-section">
          <div class="animation-second-section-wrapper">
-         <p class="animation-first-title">CONTEMOS TU HISTORIA</p>
+         <p class="animation-first-title mb-0">CONTEMOS TU HISTORIA</p>
                <p class="animation-second-title">COMO NADIE MÁS LO HA HECHO...</p>
             <div class="animation-second-section-text-wrapper">
-               <p class="animation-first-text"><span class="fw-bold">Descríbenos  el qué, cómo, cuándo y dónde de tu proyecto o negocio. 
-                  Con imaginación, nosotros nos encargamos del resto. 
+               <p class="animation-first-text-bold"><span class="fw-bold">¿CAPACITAR, PROMOCIONAR o EXPLICAR?</span></p>
+               <p class="animation-first-text"><span class="">Descríbenos el qué, cómo, cuándo y dónde de tu proyecto o negocio.
+                  Nosotros nos encargamos del resto.
                   </span> </p>
-               <p class="animation-first-text">Personalizamos la animación a tus necesidades para que comuniques de forma concreta y sencilla las ideas más chidas e importantes que tienes en mente.
+               <p class="animation-first-text">Personalizamos la animación para que comuniques de forma concreta, sencilla y muy chida aquello que
+                  tienes en mente y quieres compartir.
                </p>
-               <p class="animation-first-text"><span class="fw-bold"> Analizaremos detalles como el estilo, duración o urgencia para darte propuestas accesibles, creativas e innovadoras que capten la atención de tu público. 
+               <p class="animation-first-text"><span class=""> Detallaremos el estilo, duración o urgencia para ofrecerte propuestas accesibles, creativas e innovadoras
+                  que capten a tu público
                </p>
-               <p class="animation-price">desde $100dlls</p>
+               <p class="animation-price mb-0">Desde $100.00 USD</p>
             </div>          
          </div>
          <img alt="" src="{{ asset('images/animation/burbuja_2.png') }}" class="animation-burbuja-1">

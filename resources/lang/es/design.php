@@ -2,10 +2,9 @@
 
 return [
     'title'=>'DISEÑO',
-    'sub_title_1'=>'La comunicación visual eficiente es atractiva.',
-    'sub_title_2'=>'¿Cómo quieres que te perciba tu público?',
-    'sub_sub_title_1'=>'Experiencias chidas, amigables, impactantes',
-    'sub_sub_title_2'=>'y de mucho valor para tus usuarios.',
-    'second_title'=>'Checa nuestros paquetes:',
+    'sub_title_1'=>'COMUNICACIÓN ATRACTIVA',
+    'sub_title_2'=>'EFICIENTE Y CONVINCENTE',
+    'sub_sub_title_1'=>'Experiencias chidas, amigables y de mucho valor para impactar a tus usuarios.',
+    'second_title'=>'Paquetes y servicios',
     'examples'=>'EJEMPLOS GRÁFICOS',
 ];
