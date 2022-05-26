@@ -16,9 +16,9 @@ class SendEmailController extends Controller
     function send(Request $req) {
        
         $this->validate($req, [
-            'nombre' => 'required',
+            //'nombre' => 'required',
             'email' => 'required|email',
-            'g-recaptcha-response' => 'required|captcha',
+            //'g-recaptcha-response' => 'required|captcha',
             'mensaje' => 'required'
         ]);
 

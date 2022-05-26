@@ -696,6 +696,16 @@
     margin: auto;
 }
 
+.btn-contact {
+    background-color: #000000;
+    color: #D6D8FF;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1px;
+    margin: auto;
+    display: block;
+}
+
 .web-right-arrow {
     position: absolute;
     right: 0px;
@@ -1691,7 +1701,7 @@
     .animation-first-title {
         font-size: calc(100vw * 28 / 500);
         line-height:calc(100vw * 30 / 500);
-        margin-bottom: 2px;
+        margin-bottom: 4px !important;
     }
 
     .animation-second-title {

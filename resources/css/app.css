@@ -680,6 +680,20 @@
     margin: auto;
 }
 
+.btn-contact {
+    background-color: #000000;
+    color: #D6D8FF;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1px;
+    margin: auto;
+    display: block;
+    width: 150px;
+    height: 55px;
+    font-size: 24px;
+    margin-top: 32px;
+}
+
 .web-right-arrow {
     position: absolute;
     right: 0px;
