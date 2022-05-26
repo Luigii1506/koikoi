@@ -76,41 +76,44 @@
               <div class="item text-center design-bottom-position design-align-1">
                 <button class="design-second-section-col-button">BÁSICO</button>
                 <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
+                <p class="design-second-section-col-text">Diseño tarjetas de presentación</p>
+                <p class="design-second-section-col-text">Firma electrónica</p>
                 <p class="design-second-section-col-text">Elementos gráficos</p>
+                <p class="design-second-section-col-text">(Patrón, paleta de color, etc)</p>
                 <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
+                <p class="design-second-section-col-text">Presentación corporativa (plantillas)</p>
 
               </div>
               <div class="item text-center design-bottom-position design-align-2">
                 <button class="design-second-section-col-button">PRO</button>
                 <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
+                <p class="design-second-section-col-text">Diseño tarjetas de presentación</p>
+                <p class="design-second-section-col-text">Firma electrónica</p>
                 <p class="design-second-section-col-text">Elementos gráficos</p>
+                <p class="design-second-section-col-text">(Patrón, paleta de color, etc)</p>
+                <p class="design-second-section-col-text">Presentación corporativa (plantillas)</p>
                 <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
-                <p class="design-second-section-col-text">Diseño de redes sociales</p>
-                <p class="design-second-section-col-text">Iconografía</p>
+                <p class="design-second-section-col-text">Iconografia</p>
                 <p class="design-second-section-col-text">GIF del logo</p>
+                <p class="design-second-section-col-text">Diseño de plantillas para redes sociales (9)</p>
               </div>
               <div class="item text-center design-bottom-position design-align-3">
                 <button class="design-second-section-col-button">PREMIUM</button>
                 <p class="design-second-section-col-text">Logotipo</p>
-                <p class="design-second-section-col-text">Tarjetas de presentación</p>
-                <p class="design-second-section-col-text">Firma Electrónica</p>
+                <p class="design-second-section-col-text">Diseño tarjetas de presentación</p>
+                <p class="design-second-section-col-text">Firma electrónica</p>
                 <p class="design-second-section-col-text">Elementos gráficos</p>
+                <p class="design-second-section-col-text">(Patrón, paleta de color, etc)</p>
+                <p class="design-second-section-col-text">Presentación corporativa (plantillas)</p>
                 <p class="design-second-section-col-text">Guía de uso de marca</p>
-                <p class="design-second-section-col-text">Presentación corporativa</p>
-                <p class="design-second-section-col-text">(plantillas)</p>
-                <p class="design-second-section-col-text">Diseño de redes sociales</p>
-                <p class="design-second-section-col-text">Iconografía</p>
+                <p class="design-second-section-col-text">Iconografia</p>
                 <p class="design-second-section-col-text">GIF del logo</p>
-                <p class="design-second-section-col-text">Cartel/Poster publictario</p>
-                <p class="design-second-section-col-text">Etiquetas de producto</p>
+                <p class="design-second-section-col-text">Diseño de plantillas para redes sociales (13)</p>
+                <p class="design-second-section-col-text">Plantillas historias (3)</p>
+                <p class="design-second-section-col-text">Cartel/poster publicitario (1)</p>
+                <p class="design-second-section-col-text">(Patrón paleta de color, etc)</p>
+                <p class="design-second-section-col-text">Etiquetas para productos</p>
+                <p class="design-second-section-col-text">Animación (15 segundos)</p>
               </div>
             </div>
           </div>

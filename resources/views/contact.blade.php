@@ -53,7 +53,7 @@
             </div>
       </div>
 
-      <div class="footer-contact-wrapper"><p class="footer-contact-text">koikoi@studio.com</p></div>
+      <div class="footer-contact-wrapper"><p class="footer-contact-text">hola@koikoistudio.com</p></div>
 
 </div>
       

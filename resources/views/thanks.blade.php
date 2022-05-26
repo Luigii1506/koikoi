@@ -10,17 +10,19 @@
         <p class="gracias-title">THANKS FOR WRITING TO US</p>
     </div>
     <p class="gracias-subtitle">We will be contacting you as soon as possible </p>
-    <div class="loader">Loading...</div>
+    <div class="loader" style="text-align: center; color: white;">Loading...</div>
 
 </div>
 </div>
 
 <script>
+    
     window.onload = function() {
         setTimeout(() => {
             window.location.href = '/'
         }, 3000);  
     };
+    
 </script>
 
 @endsection
