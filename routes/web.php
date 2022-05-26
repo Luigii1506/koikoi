@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Session; //Here
+use App\Http\Controllers\SendEmailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -41,5 +42,7 @@ Route::get('locale/{locale}', function ($locale) {
     Session::put('locale',$locale);
     return redirect()->back();
 });
+
+Route::post('/sendmail', [SendEmailController::class, 'send']);
 
 

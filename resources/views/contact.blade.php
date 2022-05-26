@@ -1,6 +1,10 @@
   
 @extends('layouts.app')
 
+@section('scripts')
+    {!! NoCaptcha::renderJs() !!}
+@stop
+
 @section('content')
 
 <div class="container-fluid contact-mainWrapper" id="contactWrapper">
@@ -35,6 +39,15 @@
                               <span class="contact-span">{{__('contact.input_2')}}</span>
                               <input type="email" class="form-control custom-form-input"  placeholder="correo@gmail.com" name="email">
                         </div>
+                        <div class="form-group">
+                              {!! NoCaptcha::display() !!}  
+                              
+                              @error('g-recaptcha-response')
+                                  <div role="alert" class="captcha-alert">
+                                      <strong>Verifica que no eres un bot</strong>
+                                  </div>
+                              @enderror
+                          </div>
                         <button class="btn btn-contact">{{__('contact.button')}}</button>
                   </form>
             </div>
