@@ -16,7 +16,7 @@
           </div>
       </div>
       <div class="design-first-section">
-         <div class="row">
+         <div class="row design-first-row">
             <div class="col-12 col-md-5 design-first-section-col-1">
                <div class="design-first-section-text-wrapper">
                   <p class="design-first-section-text-1">{{__('design.title')}}</p>
@@ -59,8 +59,8 @@
                   </button>
                </div>
             </div>
-            <div class="col-12">
-               <p class="design-first-section-text-mobile">{{__('design.second_title')}}</p>
+            <div class="col-12 design-first-section-text-mobile">
+               <p >{{__('design.second_title')}}</p>
             </div>
          </div>
       </div>
@@ -69,9 +69,12 @@
          <img src="{{ asset('images/design/fondo_blanco_mobile.png') }}" alt="" class="design-second-section-fondo-blanco-mobile">
 
          <img src="{{ asset('images/design/circulo.png') }}" class="design-second-section-burbuja">
-         <p class="design-second-section-text">{{__('design.second_title')}}</p>
         <div class="design-second-section-row-wrapper">
+         <p class="design-second-section-text">{{__('design.second_title')}}</p>
+
           <div class="position-relative design-second-section-row h-100">
+             
+             <!--
             <div class="owl-carousel owl-theme owl-carousel-section-2 h-100">
               <div class="item text-center design-bottom-position design-align-1">
                 <button class="design-second-section-col-button">BÁSICO</button>
@@ -115,6 +118,69 @@
                 <p class="design-second-section-col-text">Etiquetas para productos</p>
                 <p class="design-second-section-col-text">Animación (15 segundos)</p>
               </div>
+            </div>
+            -->
+            <div class="row custom-card-row">
+               <div class="col-12 col-lg-4">
+                  <div class="custom-card">
+                     <div class="custom-card-header">
+                           <p class="custom-card-header-text">BÁSICO</p>
+                     </div>
+                     <div class="custom-card-body">
+                        <ul class="ul-web">
+                           <li>Logotipo</li>
+                           <li>Firma electrónica</li>
+                           <li>Elementos gráficos</li>
+                           <li>Tarjetas de presentación</li>
+                           <li>Presentación Corporativa</li>
+                           <li>Guia de uso de marca</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-4">
+                  <div class="custom-card">
+                     <div class="custom-card-header">
+                           <p class="custom-card-header-text">PRO</p>
+                     </div>
+                     <div class="custom-card-body">
+                        <ul class="ul-web">
+                           <li>Logotipo</li>
+                           <li>Iconografía</li>
+                           <li>GIF de logotipo</li>
+                           <li>Firma electrónica</li>
+                           <li>Elementos gráficos</li>
+                           <li>Tarjetas de presentación</li>
+                           <li>Presentación Corporativa</li>
+                           <li>Diseño de plantillas</li>
+                           <li>Guia de uso de marca</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-12 col-lg-4">
+                  <div class="custom-card">
+                     <div class="custom-card-header">
+                           <p class="custom-card-header-text">PREMIUM</p>
+                     </div>
+                     <div class="custom-card-body">
+                        <ul class="ul-web">
+                           <li>Logotipo</li>
+                           <li>Firma electrónica</li>
+                           <li>Elementos gráficos</li>
+                           <li>Tarjetas de presentación</li>
+                           <li>Presentación Corporativa</li>
+                           <li>Guia de uso de marca</li>
+                           <li>Elementos gráficos</li>
+                           <li>Tarjetas de presentación</li>
+                           <li>Presentación Corporativa</li>
+                           <li>Diseño de plantillas</li>
+                           <li>Guia de uso de marca</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+
             </div>
           </div>
         </div>

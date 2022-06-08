@@ -69,7 +69,7 @@
           <div class="col-12">
             <div data-aos="fade-up"> <p class="home-third-section-title">{{__('home.home_how')}}</p></div>
           </div>
-          <div class="col-6 col-sm-4 col-xl-3">
+          <div class="col-6 col-sm-4 col-xl-4">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_1.png') }}" class="home-third-section-small-img">
             <p class="home-third-section-text-2">{{__('home.col_1_title')}}</p>
             <!--
@@ -79,7 +79,7 @@
             <p class="home-third-section-text">tu proyecto o negocio.</p-->
               <p class="home-third-section-text">{{__('home.col_1_text')}}</p>
           </div>  
-          <div class="col-6 col-sm-4 col-xl-3">
+          <div class="col-6 col-sm-4 col-xl-4">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_2.png') }}" class="home-third-section-small-img">
             <p class="home-third-section-text-2">{{__('home.col_2_title')}}</p>
             <!--
@@ -88,7 +88,7 @@
             -->
             <p class="home-third-section-text">{{__('home.col_2_text')}}</p>
           </div>    
-          <div class="col-6 col-sm-4 col-xl-3">
+          <div class="col-6 col-sm-4 col-xl-4">
             <img alt="Quasar logo" src="{{ asset('images/tooltip_3.png') }}" class="home-third-section-small-img ">
             <p class="home-third-section-text-2">{{__('home.col_3_title')}}</p>
             <!--
@@ -100,7 +100,7 @@
             -->
             <p class="home-third-section-text">{{__('home.col_3_text')}}</p>
           </div>
-          <div class="col-6 col-xl-3">   
+          <div class="col-12">   
             <img alt="Quasar logo" src="{{ asset('images/tooltip_4.png') }}" class="home-third-section-big-img">
             <p class="home-third-section-text-2">{{__('home.col_4_title')}}</p>
             <!--
